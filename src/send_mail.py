@@ -3,8 +3,6 @@ from email.mime.base import MIMEBase
 from email import encoders
 import smtplib
 from config import USERNAME_YANDEX_MAIL, PASSWORD_YANDEX_MAIL
-# login = "scriptForm@yandex.ru"
-# password = "6626553000d"
 
 def add_file_mail(marketpalce):
     part = MIMEBase('application', "octet-stream")
